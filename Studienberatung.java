@@ -15,7 +15,7 @@ public class Studienberatung {
 			if (b.equalsIgnoreCase("j")) {
 				System.out.println("Auf jeden Fall studieren");
 			}
-			else {
+			else if (b.equalsIgnoreCase("n")) {
 				System.out.println("Du solltest vielleicht nicht studieren.");
 			}
 		}
@@ -26,7 +26,16 @@ public class Studienberatung {
 			if (c.equalsIgnoreCase("n")) {
 				System.out.println("Du solltest vielleicht nicht studieren.");
 			}
-			else {
+			else if (c.equalsIgnoreCase("j")) {
+				System.out.println("Hast du eine Berufsausbildung? [J/N]");
+				String d = scanner.next();
+			
+				if (d.equalsIgnoreCase("j")) {
+					System.out.println("Du kannst später noch studieren.");
+				}
+				else if (d.equalsIgnoreCase("n")) {
+					System.out.println("Du solltest besser noch studieren.");
+				}
 			}
 		}
 	}
