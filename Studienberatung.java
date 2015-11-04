@@ -11,5 +11,8 @@ public class Studienberatung {
 		if (a.equalsIgnoreCase("n")) {
 			//code
 		}
+		else {
+			
+		}
 	}
 }
