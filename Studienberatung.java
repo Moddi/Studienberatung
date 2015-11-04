@@ -11,11 +11,13 @@ public class Studienberatung {
 		
 		if (a.equalsIgnoreCase("j")) {
 			System.out.println("Bist du wissbegierig? [J/N]");
-			if (a.equalsIgnoreCase("j")) {
+			
+			String b = scanner.next();
+			if (b.equalsIgnoreCase("j")) {
 				System.out.println("Auf jeden Fall studieren");
 			}
 			else {
-				System.out.println("Nicht studieren.");
+				System.out.println("Du solltest vielleicht nicht studieren.");
 			}
 		}
 		else {
