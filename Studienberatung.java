@@ -8,5 +8,8 @@ public class Studienberatung {
 		System.out.println("Hast du Abitur? [J/N]");
 
 		String a = scanner.next();
+		if (a.equalsIgnoreCase("n")) {
+			//code
+		}
 	}
 }
